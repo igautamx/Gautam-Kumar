@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gautam Kumar — Data Analyst</title>
+<meta name="description" content="Gautam Kumar — Data Analyst skilled in Python, SQL, Power BI and machine learning. Portfolio of dashboards, pipelines and ML projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">GK<span class="dot">.</span></a>
+    <nav class="nav__links">
+      <a href="#work">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--ghost nav__cta">Hire me</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO / QUERY CONSOLE ===== -->
+  <section class="hero">
+    <div class="hero__grid">
+      <div class="console" role="img" aria-label="Terminal showing a query that returns Gautam Kumar's profile">
+        <div class="console__bar">
+          <span class="console__dot" style="--c:#E8586B"></span>
+          <span class="console__dot" style="--c:#E8A33D"></span>
+          <span class="console__dot" style="--c:#4FD1C5"></span>
+          <span class="console__tab">profile_query.sql</span>
+        </div>
+        <div class="console__body">
+          <p class="console__line"><span class="tok-kw">SELECT</span> name, role, stack <span class="tok-kw">FROM</span> talent <span class="tok-kw">WHERE</span> impact <span class="tok-op">&gt;</span> <span class="tok-num">0</span>;</p>
+          <p class="console__typing"><span id="typedLine"></span><span class="cursor">▌</span></p>
+          <div class="console__result" id="consoleResult">
+            <p class="result__row"><span class="result__key">name</span><span class="result__val">Gautam Kumar</span></p>
+            <p class="result__row"><span class="result__key">role</span><span class="result__val">Data Analyst · ML</span></p>
+            <p class="result__row"><span class="result__key">stack</span><span class="result__val">Python · SQL · Power BI</span></p>
+            <p class="result__meta">1 row returned</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__copy">
+        <p class="eyebrow">Delhi, India — open to Data Analyst | Aspiring Data Scientist & Machine Learning Engineer</p>
+        <h1 class="h1">Turning raw tables<br>into decisions.</h1>
+        <p class="hero__lede">I clean the messy stuff, model it, and ship dashboards people actually use — with Python, SQL, Power BI and a bit of machine learning on the side.</p>
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--solid">See the work</a>
+          <a href="https://drive.google.com/file/d/1DmIaUiv8GyjKTReBQnvUwElpfzLepPmv/view?usp=sharing" class="btn btn--ghost" download>Download résumé ↓</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- KPI strip — styled like report tiles -->
+    <div class="kpi-strip" id="kpiStrip">
+      <div class="kpi">
+        <span class="kpi__num" data-count="50000" data-suffix="+">0</span>
+        <span class="kpi__label">records automated<br>in a single pipeline</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi__num" data-count="99" data-suffix="%">0</span>
+        <span class="kpi__label">data consistency<br>after cleaning</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi__num" data-count="30" data-suffix="%">0</span>
+        <span class="kpi__label">reporting time cut<br>with Power BI</span>
+      </div>
+      <div class="kpi">
+        <span class="kpi__num" data-count="94" data-suffix=" min">0</span>
+        <span class="kpi__label">avg. wait time<br>surfaced in analysis</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <span class="eyebrow">01 — About</span>
+    </div>
+    <p class="about__text">
+      Hi, I'm Gautam Kumar 👋 <br>
+    I enjoy solving problems with data—not just creating dashboards, but understanding where the numbers come from and why they matter. My favorite part of analytics is investigating unexpected trends, optimizing SQL queries, automating repetitive workflows, and building reports that help teams make better decisions.
+
+Through my internships and hands-on projects, I've worked with SQL, Python, Excel, Power BI, and machine learning to clean data, automate processes, analyze business performance, and develop interactive dashboards. I enjoy transforming messy datasets into meaningful insights that drive real business outcomes.
+
+I'm continuously expanding my skills in data science and machine learning, exploring predictive analytics, statistical modeling, and AI-powered solutions while maintaining a strong foundation in business analytics. </p>
+    
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <span class="eyebrow">02 — Skills</span>
+      <h2 class="h2">The stack, by column</h2>
+    </div>
+    <div class="skills__grid">
+      <div class="skill-col">
+        <h3 class="skill-col__title">Programming</h3>
+        <ul class="skill-list">
+          <li>Python</li><li>Pandas / NumPy</li><li>Matplotlib / Seaborn</li><li>Scikit-learn</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3 class="skill-col__title">Analysis &amp; ML</h3>
+        <ul class="skill-list">
+          <li>Data cleaning &amp; EDA</li><li>Regression / Classification</li><li>NLP</li><li>RAG &amp; LLMs</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3 class="skill-col__title">Visualization</h3>
+        <ul class="skill-list">
+          <li>Power BI</li><li>Tableau</li><li>Excel (Pivots, VLOOKUP/XLOOKUP)</li><li>Dashboards &amp; KPIs</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3 class="skill-col__title">Data &amp; Tools</h3>
+        <ul class="skill-list">
+          <li>SQL Server / MySQL / PostgreSQL</li><li>Jupyter · VS Code</li><li>ETL tools</li><li>Google Sheets</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="experience" id="experience">
+    <div class="section-head">
+      <span class="eyebrow">03 — Experience</span>
+      <h2 class="h2">Where the numbers came from</h2>
+    </div>
+
+    <div class="timeline">
+      <article class="job">
+        <div class="job__meta">
+          <span class="job__date">Aug 2025 — Feb 2026</span>
+        </div>
+        <div class="job__body">
+          <h3 class="job__title">Business Analyst Intern</h3>
+          <p class="job__company">The Unexplored</p>
+          <ul class="job__list">
+            <li>Analyzed digital marketing data in Excel and Power BI to identify lead-generation trends.</li>
+            <li>Built interactive Power BI dashboards tracking CTR, CPC, conversion rate and ROI.</li>
+            <li>Cleaned and transformed data in Advanced Excel — pivot tables, VLOOKUP/XLOOKUP — for accurate reporting.</li>
+            <li>Supported A/B testing and campaign analysis to inform decision-making.</li>
+            <li>Sent daily EOD performance reports to stakeholders.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="job">
+        <div class="job__meta">
+          <span class="job__date">Jun 2024 — Jul 2024</span>
+        </div>
+        <div class="job__body">
+          <h3 class="job__title">Data Analyst Intern</h3>
+          <p class="job__company">IDEMIA</p>
+          <ul class="job__list">
+            <li>Automated data pipelines with Python (Pandas) to process 50,000+ records at 99% data consistency.</li>
+            <li>Optimized complex SQL queries, cutting execution time by 15% on large datasets.</li>
+            <li>Ran EDA and statistical analysis that drove 3+ key business decisions.</li>
+            <li>Built Power BI dashboards that reduced reporting time by 30%.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="work" id="work">
+    <div class="section-head">
+      <span class="eyebrow">04 — Projects</span>
+      <h2 class="h2">Filter by tool</h2>
+    </div>
+
+    <div class="filter-bar" id="filterBar">
+      <button class="filter-chip is-active" data-filter="all">all</button>
+      <button class="filter-chip" data-filter="powerbi">Power BI</button>
+      <button class="filter-chip" data-filter="sql">SQL</button>
+      <button class="filter-chip" data-filter="python">Python</button>
+      <button class="filter-chip" data-filter="ml">ML / NLP</button>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+
+      <article class="project" data-tags="powerbi sql excel">
+        <div class="project__top">
+          <span class="project__index">01</span>
+          <a href="https://github.com/igautamx" target="_blank" rel="noopener" class="project__link" aria-label="View repository on GitHub">↗</a>
+        </div>
+        <h3 class="project__title">Hospital Patient Flow &amp; Bed Management</h3>
+        <p class="project__desc">A Power BI dashboard built on patient-record data to expose where a hospital's operations were bleeding time — from admission to discharge.</p>
+        <ul class="project__stats">
+          <li><span class="stat__num">94 min</span><span class="stat__label">avg. wait time found</span></li>
+          <li><span class="stat__num">8 days</span><span class="stat__label">avg. length of stay</span></li>
+        </ul>
+        <div class="project__tags">
+          <span class="tag">Power BI</span><span class="tag">SQL</span><span class="tag">Excel</span>
+        </div>
+      </article>
+
+      <article class="project" data-tags="python ml">
+        <div class="project__top">
+          <span class="project__index">02</span>
+          <a href="https://github.com/igautamx" target="_blank" rel="noopener" class="project__link" aria-label="View repository on GitHub">↗</a>
+        </div>
+        <h3 class="project__title">IT Support AI Chatbot (RAG)</h3>
+        <p class="project__desc">An end-to-end retrieval-augmented support bot: a TF-IDF + logistic regression classifier routes tickets, and GPT-4o-mini generates grounded, concise answers.</p>
+        <ul class="project__stats">
+          <li><span class="stat__num">RAG</span><span class="stat__label">context-aware answers</span></li>
+          <li><span class="stat__num">TF-IDF</span><span class="stat__label">ticket classification</span></li>
+        </ul>
+        <div class="project__tags">
+          <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">RAG / LLMs</span>
+        </div>
+      </article>
+
+    </div>
+    <p class="project__note">More case studies going up on GitHub — check back or reach out for walkthroughs.</p>
+  </section>
+
+  <!-- ===== EDUCATION + CERTS ===== -->
+  <section class="education" id="education">
+    <div class="section-head">
+      <span class="eyebrow">05 — Education</span>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <span class="edu-card__date">2022 — 2025</span>
+        <h3 class="edu-card__title">B.Tech, Artificial Intelligence &amp; Machine Learning</h3>
+        <p class="edu-card__sub">Guru Gobind Singh Indraprastha University, Delhi</p>
+      </div>
+      <div class="edu-card">
+        <span class="edu-card__date">2018 — 2021</span>
+        <h3 class="edu-card__title">Polytechnic Diploma, Computer Science Engineering</h3>
+        <p class="edu-card__sub">Board of Technical Education, Delhi</p>
+      </div>
+    </div>
+    <div class="certs">
+      <span class="tag tag--cert">Data Analysis with Python — IBM</span>
+      <span class="tag tag--cert">SQL &amp; Relational Databases — IBM</span>
+      <span class="tag tag--cert">Python — Tutedude</span>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <span class="eyebrow">06 — Contact</span>
+      <h2 class="h2 contact__h2">Got a role that needs<br>a spreadsheet turned into a story?</h2>
+      <a class="contact__email" href="mailto:Gautamk.edu@gmail.com">Gautamk.edu@gmail.com</a>
+      <div class="contact__links">
+        <a href="tel:+919310522981">+91 93105 22981</a>
+        <a href="https://linkedin.com/in/igautamx" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://github.com/igautamx" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Gautam Kumar — Delhi, India</p>
+  <p>Built By Gautam Kumar </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
